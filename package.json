@@ -2,7 +2,7 @@
   "name": "chip_collector_web",
   "version": "1.0.0",
   "description": "Chip Collector Web UI",
-  "main": "app.js",
+  "main": "starter.js",
   "scripts": {
     "start": "node ./bin/starter",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,9 +14,12 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
     "gulp-jscs": "^4.0.0",
     "gulp-jshint": "^2.0.1",
+    "gulp-nodemon": "^2.1.0",
     "jshint": "^2.9.2",
-    "jshint-stylish": "^2.2.0"
+    "jshint-stylish": "^2.2.0",
+    "wiredep": "^4.0.0"
   }
 }
